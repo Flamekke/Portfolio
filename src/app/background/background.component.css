@@ -1,0 +1,162 @@
+.carousel-item {
+  height: 100vh;
+  min-height: 200px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@font-face
+{
+  font-family: "title";
+  src: url("../../assets/Androgyne_TB.otf") format("woff2");
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+a {
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  color: #F39C12;
+  text-transform: uppercase;
+}
+
+.btn {
+  text-decoration: none;
+  border: 5px solid #F39C12;
+  position: relative;
+  top : 20vh;
+  overflow: hidden;
+}
+
+.btn:hover {
+  background-color: #F39C12;
+  color :#283A4C;
+}
+
+#test
+{
+  font-family: "title";
+  position : relative;
+  font-size: 80px;
+  color : #F39C12;
+  top : 25%;
+  text-align: center;
+}
+
+
+#accroche
+{
+  font-family: "title";
+  position : relative;
+  color : white;
+  font-size: 20px;
+  top : 26%;
+  text-align: center;
+}
+
+@media only screen and (max-device-width:700px) {
+  #accroche
+  {
+    font-family: "title";
+    position : relative;
+    color : white;
+    font-size: 10px;
+    top : 26%;
+    text-align: center;
+  }
+  #test
+{
+  font-family: "title";
+  position : relative;
+  font-size: 40px;
+  color : #F39C12;
+  top : 25%;
+  text-align: center;
+}
+
+a {
+  font-size: 0.8rem;
+  padding: 1rem 3rem;
+  color: #F39C12;
+  text-transform: uppercase;
+}
+ }
+
+
+@media (max-width: 350px)
+{
+  #test
+  {
+    font-size: 35px;
+  }
+}
+
+.wrap {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+img {
+  height: 50px;
+  width: auto;
+
+}
+
+#arrow {
+  color : #F39C12;
+
+}
+
+
+.wrap img {
+  margin: 0px 0 0 -40px;
+  line-height: 60px;
+  position: absolute;
+
+  left: 50%;
+  bottom: 0px;
+}
+
+.bounce {
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation: bounce 3.6s ease infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  5.55556% {
+    transform: translateY(0);
+  }
+  11.11111% {
+    transform: translateY(0);
+  }
+  22.22222% {
+    transform: translateY(-15px);
+  }
+  27.77778% {
+    transform: translateY(0);
+  }
+  33.33333% {
+    transform: translateY(-15px);
+  }
+  44.44444% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
